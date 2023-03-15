@@ -1,0 +1,36 @@
+.container {
+    background-color: red;
+    width: 500px;
+    
+}
+
+.screen {
+    height: 100px;
+    background-color: blue;
+    text-align: right;
+    font-size: 40px;
+}
+
+.container-buttons{
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
+}
+
+.buttons {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.operations {
+    background-color: chocolate;
+}
+
+.result {
+    background-color: darkmagenta;
+}
